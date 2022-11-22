@@ -7,19 +7,22 @@
   color: white;
 }
 
-header {
-  background-image: url('./img/Records.jpg');
-}
-
+/* header */
 header h1 {
+  margin: 60px 0;
+  background-image: url('./img/Records.jpg');
   font-size: 100px;
   text-align: center;
   font-weight: bold;
 }
 
+h2, h3 {
+  margin: 15px 0;
+  font-weight: bold;
+}
+
 h2 {
   font-size: 25px;
-  font-weight: bold;
   text-align: center;
 }
 
@@ -33,4 +36,37 @@ h2#selling {
 
 h2#live-music {
   background-color: #9C538B;
+}
+
+/* Text */
+span {
+  font-weight: bold;
+}
+
+footer p {
+  font-size: 12px;
+  text-align: center;
+}
+
+/* images */
+img {
+  /* top and bottom margin */
+  margin: 15px 0;
+  width: 500px;
+}
+
+/* links */
+a, a:visited {
+  font-weight: bold;
+  text-decoration: none;
+  color: #EF8354;
+}
+
+a:hover {
+  color: #9C528B;
+}
+
+/* layout */
+footer {
+  padding: 20px;
 }
